@@ -3,6 +3,6 @@ from Cython.Build import cythonize
 
 setup(
     name='Hello world app',
-    ext_modules=cythonize("sudko_solver.pyx")
+    ext_modules=cythonize("sudku_solver.pyx")
     
 )
